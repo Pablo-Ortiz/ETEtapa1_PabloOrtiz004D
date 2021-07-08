@@ -1,0 +1,15 @@
+<table class="table table-responsive table-straped" style="color: silver">
+    <br>
+      <thead>  
+        <tr>
+            <td scope="col">Contraseña</td>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            {% for c in pssw %}
+              <td>{{c.pssw}}</td>
+            {%endfor%}
+            </tr>
+        </tbody>
+    </table>
